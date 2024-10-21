@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(76,158,49);
+    background: -moz-linear-gradient(90deg, rgba(76,158,49,1) 49%, rgba(184,35,35,1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(76,158,49,1) 49%, rgba(184,35,35,1) 50%);
+    background: linear-gradient(90deg, rgba(76,158,49,1) 49%, rgba(184,35,35,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4c9e31",endColorstr="#b82323",GradientType=1);
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s ease; /* Suaviza a transição de cor */
+}
+
+div{
+    background-color: rgb(61, 187, 61);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background: rgb(61,187,61);
+    background: -moz-linear-gradient(90deg, rgba(61,187,61,1) 49%, rgba(184,35,35,1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(61,187,61,1) 49%, rgba(184,35,35,1) 50%);
+    background: linear-gradient(90deg, rgba(61,187,61,1) 49%, rgba(184,35,35,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3dbb3d",endColorstr="#b82323",GradientType=1);
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li a:hover{
+    color: #3a4fa5;
+}
+#reto{
+    text-align: center;
+    font-size: 55px;
+}
+#reto2{
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(76, 158, 49);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    padding-top: 700px;
+}
+
+.content {
+    margin-bottom: 20px; /* Espaçamento entre as divs */
+    padding: 15px;
+    background-color: rgb(61, 187, 61);
+    border-radius: 5px;
+    width: 45%; /* Define a largura das divs para alinhá-las na esquerda */
+    text-align: center;
+    
+}
+
+.left-align {
+    float: left; /* Alinha a div à esquerda */
+    clear: both; /* Garante que cada div comece uma nova linha */
+}
+.right-align {
+    float: right; /* Alinha a div à esquerda */
+    clear: both; /* Garante que cada div comece uma nova linha */
+}
+.centered-div {
+    width: 500px;
+    padding: 20px;
+    background-color: #3dbb3d;
+    border: 0px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+.por{
+    font-size: 20px;
+}
+.h2{
+    font-size: 45px;
+}
+.tam{
+    font-size: 50px;
+}
+.color3{
+    background-color: #b82323;
+    padding-top:660px;
+}
+.color2{
+    background-color: #991b1b;
+}
